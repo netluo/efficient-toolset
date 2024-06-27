@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/5/19 11:11
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : redis_find_bigkey.py
 # @Software: PyCharm
 

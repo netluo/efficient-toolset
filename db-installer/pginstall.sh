@@ -24,7 +24,7 @@ function prepare_libs() {
 }
 
 function pg_make() {
-    wget https://dl.eeo-inc.com/software/mysql/postgresql-$PGVERSION.tar.gz --no-check-certificate
+    wget https://dl.test-inc.com/software/mysql/postgresql-$PGVERSION.tar.gz --no-check-certificate
     tar zxvf postgresql-$PGVERSION.tar.gz && cd postgresql-$PGVERSION || exit
     ./configure --prefix=$PGHOME --with-python --enable-debug --with-systemd
     make all && make install

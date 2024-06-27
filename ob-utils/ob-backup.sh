@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2023/1/16 13:02
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : ob-backup.sh
 # @Software: PyCharm
 

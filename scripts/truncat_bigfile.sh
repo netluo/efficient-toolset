@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2022/7/5 16:23
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : truncat_bigfile.sh
 # @Software: PyCharm
 

@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/7/1 12:36
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : DatetimeUtile.py
 # @Software: PyCharm
 

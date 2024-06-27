@@ -61,10 +61,10 @@ class MysqlOperation:
         headers = {
             "accept": "*/*",
             "accept-language": "zh-CN",
-            "authority": "ob-oms-lab.eeo-inc.com",
+            "authority": "ob-oms-lab.test-inc.com",
             "content-length": "0",
-            "origin": "https://ob-oms-lab.eeo-inc.com",
-            "referer": f"https://ob-oms-lab.eeo-inc.com/oms-v2/operation/work/{err_id}?id={err_id}",
+            "origin": "https://ob-oms-lab.test-inc.com",
+            "referer": f"https://ob-oms-lab.test-inc.com/oms-v2/operation/work/{err_id}?id={err_id}",
             "sec-fetch-dest": "empty",
             "sec-fetch-mode": "cors",
             "sec-fetch-site": "same-origin",
@@ -79,7 +79,7 @@ class MysqlOperation:
         }
 
         response = requests.put(
-            f'https://ob-oms-lab.eeo-inc.com/omsp/operator/request/skip?ctoken={ctoken}&id={err_id}&dimension=ORDER',
+            f'https://ob-oms-lab.test-inc.com/omsp/operator/request/skip?ctoken={ctoken}&id={err_id}&dimension=ORDER',
             # params=params,
             cookies=cookies,
             headers=headers,

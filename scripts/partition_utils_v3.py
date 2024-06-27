@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/3/18 16:39
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : partition_utils_v2.py
 # @Software: PyCharm
 import argparse
@@ -28,7 +28,7 @@ nest_asyncio.apply()
 # host = '172.16.250.231'
 # port = 6001
 # user = 'partitionuser'
-# password = 'nY2k8lL7'
+# password = 'Passw0rd'
 # database = 'zabbix'
 table_need_add = ['history', 'history_uint', 'history_log', 'history_str', 'history_text', 'trends', 'trends_uint']
 table_need_add_by_day = ['history', 'history_uint']
@@ -244,7 +244,7 @@ class partition_mgr:
         mail_pass = "examplePwd"
         mail_port = 465
         sender = 'checker@example.com'
-        receivers = ['ops_dba@eeoa.com']
+        receivers = ['ops_dba@example.com']
         text = "您好,今天的MySQL分区创建失败了.请登陆%s服务器查看" % hostname
         message = MIMEText(text, 'plain', 'utf-8')
         message['From'] = Header("报警机器人", 'utf-8')

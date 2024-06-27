@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/3/18 16:39
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : partition_utils_v1.py
 # @Software: PyCharm
 
@@ -13,7 +13,7 @@ import time
 host = '172.16.250.231'
 port = 6001
 user = 'partitionuser'
-password = 'nY2k8lL7'
+password = 'Passw0rd'
 database = 'zabbix'
 table_name_list = ['history', 'history_log', 'history_str',
                    'history_text', 'history_uint', 'trends', 'trends_uint']

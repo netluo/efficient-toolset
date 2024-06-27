@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2022/11/27 10:16
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : clear_lms_topic.sh.sh
 # @Software: PyCharm
 

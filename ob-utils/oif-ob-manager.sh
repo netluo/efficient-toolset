@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2022/10/20 10:20
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : oif-ob-manager.sh
 # @Software: PyCharm
 

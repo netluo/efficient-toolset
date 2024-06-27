@@ -1,23 +1,24 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/3/18 16:39
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : partition_utils_v2.py
 # @Software: PyCharm
 
-import re
 import datetime
-import time
 import logging
-from dbutils.pooled_db import PooledDB
+import re
+import time
 from logging import handlers
-import pymysql, asyncio
+
+import asyncio
+import pymysql
 
 # ----- config -------
 # host = '172.16.250.231'
 # port = 6001
 # user = 'partitionuser'
-# password = 'nY2k8lL7'
+# password = 'Passw0rd'
 # database = 'zabbix'
 table_need_add = ['history', 'history_log', 'history_str', 'history_text', 'history_uint', 'trends', 'trends_uint']
 table_need_drop = ['history', 'history_uint']
@@ -35,14 +36,9 @@ c_date = datetime.date.today()  # 当前日期
 c_unixtime = time.mktime(c_date.timetuple())
 
 
-# c_date
-# datetime.date(2022, 3, 21)
-# c_date.timetuple()
-# time.struct_time(tm_year=2022, tm_mon=3, tm_mday=21, tm_hour=0, tm_min=0, tm_sec=0, tm_wday=0, tm_yday=80, tm_isdst=-1)
-# tm_wday -- 星期几
-# tm_yday -- 一年中的第几天
-# time.mktime(c_date.timetuple())
-# 1647792000.0
+# c_date datetime.date(2022, 3, 21) c_date.timetuple() time.struct_time(tm_year=2022, tm_mon=3, tm_mday=21,
+# tm_hour=0, tm_min=0, tm_sec=0, tm_wday=0, tm_yday=80, tm_isdst=-1) tm_wday -- 星期几 tm_yday -- 一年中的第几天 time.mktime(
+# c_date.timetuple()) 1647792000.0
 
 # c_date.timestamp()
 # 1647601800.74308

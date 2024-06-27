@@ -31,7 +31,7 @@ function pre_share_lib() {
 function get_mysql() {
     # 官方镜像源
     # wget https://cdn.mysql.com/archives/mysql-8.0/mysql-8.0.20-el7-x86_64.tar.gz
-    cd /tmp && wget https://dl.eeo-inc.com/software/mysql/$MYSQL_GZ
+    cd /tmp && wget https://dl.test-inc.com/software/mysql/$MYSQL_GZ
     tar zxvf /tmp/$MYSQL_GZ -C /usr/local
 }
 

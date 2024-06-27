@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2023/3/15 18:59
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : mysql-backup.sh
 # @Software: PyCharm
 

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # @Time    : 2022/11/23 15:57
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : ocp-alarm.sh.sh
 # @Software: PyCharm
 

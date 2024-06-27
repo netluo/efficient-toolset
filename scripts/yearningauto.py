@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 2022/6/20 14:43
 # @Author  : chengxiang.luo
-# @Email   : chengxiang.luo@eeoa.com
+# @Email   : andrew.luo1992@gmail.com
 # @File    : yearningauto.py
 # @Software: PyCharm
 
@@ -109,7 +109,7 @@ class ynAutoAgree:
 
 if __name__ == '__main__':
     parse = argparse.ArgumentParser(description="yearning auto agreed. ", add_help=True)
-    parse.add_argument('-u', '--url', help="set the url for yearning", type=str, default="https://yn.eeo-inc.com")
+    parse.add_argument('-u', '--url', help="set the url for yearning", type=str, default="https://yn.test-inc.com")
     parse.add_argument('-a', '--agreed', help="agree to query. ", action='store_true')
     parse.add_argument('-k', '--kill', help="kill all query, use work_id. ", nargs='+', metavar='', type=str)
     parse.add_argument('-l', '--list', help="list all running query.", action='store_true')
